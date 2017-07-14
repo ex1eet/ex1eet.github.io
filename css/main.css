@@ -132,50 +132,14 @@ a.navbar-brand {
 }
 
 
-.navigation-desctop a:hover{
-	font-size: 3rem;
-	transition:all 0.8s ease;
-	transform: translateX(-15px);
-}
 
 
-.navigation-desctop a {
-  
-  
-  position: relative;
-}
-.navigation-desctop a.nav-item:after {
-  transition: all 0.4s;
- margin-left: 12px;
-  content: '';
-  width: 90%;
-  position: absolute;
-  height: 2px;
-  bottom: -5px;
-  left: 50%;
-  transform: translateX(-50%) scaleX(0);
-  background: #5F9EA0;
-}
-.navigation-desctop a:hover.nav-item:after {
-  content: '';
-  margin-left: 12px;
-  width: 90%;
-  position: absolute;
-  height: 2px;
-  bottom: -5px;
-  left: 50%;
-  transform: translateX(-50%) scaleX(1);
-  background: #5F9EA0;
 
-}
+
 
 
 /* Новый блок 1 */
-#about {
-	
-	
 
-}
 .w {
 	padding-top: 35px;
 }
