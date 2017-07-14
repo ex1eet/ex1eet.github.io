@@ -1,0 +1,80 @@
+/*  Basic */
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background-color: #f2f2f2;   /* цвет фона    */					/*     */
+	-webkit-font-smoothing: antialiased;			/*  Гладкий шрифт на моб. устройствах или увеличить   */
+	-webkit-overflow-scrolling: touch; 	/*   Чтобы можно было проскролить при помощи тача  */
+}
+
+ul.menu li {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+#header {
+	background: url(../img/fon_body_red.png) no-repeat center top;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+			height: 90vh;
+			min-height: 60rem;
+}
+
+.container {
+	border:1px solid #fff;
+}
+
+
+i[class*="ic-"] {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/sprite.png) no-repeat;
+}
+
+
+i.ic-arrow {
+	height: 20px;
+	width: 22px;
+	background-position: 1px -37px;
+}
+
+button {
+	background-color: black;
+	width: 40px;
+	height: 37px;
+	border: 1px solid #eee;
+	/* -wmos-border-radius: 5px; */
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		 -o-border-radius: 5px;
+			border-radius: 5px;
+			outline: none;			
+}
+
+button:hover {
+	background-color: #130e27;
+	border: 1px solid pink;
+}
+
+.dropdown-menu {
+	background-color: #130e27;
+}
+
+.dropdown-menu li a {
+	color: yellow;	
+}
+
+.dropdown-menu li a:hover {
+	background-color: blue;
+	color:#fff;
+}
+
+.dropdown {
+	float: right;
+	padding-left: 120px;
+}

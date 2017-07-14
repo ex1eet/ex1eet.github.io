@@ -1,7 +1,16 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 10px;
+	color: #fff;
+}
+
 body {
 	background-color: #f2f2f2;   /* цвет фона    */					/*     */
-	font-size: 16px;
-	color: red;
 	-webkit-font-smoothing: antialiased;			/*  Гладкий шрифт на моб. устройствах или увеличить   */
 	-webkit-overflow-scrolling: touch; 	/*   Чтобы можно было проскролить при помощи тача  */
 }
@@ -11,85 +20,273 @@ h1,	h2,	h3,	h4,	h5,	h6 {
 	color: #fff;
 }
 
-#headerwrap {
-	background: url(../img/main.jpg) no-repeat center top;
+
+#ft ul {
+	font-weight: 700;
+	font-size: 2rem;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+#ft ul a {
+	color: #fff;
+}
+
+.sellform {
+	margin-top: 150px;
+	
+}
+
+.sbtext {
+	color: #130e27;
+	font-size: 5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-left: 50px;
+}
+
+.sbtext span {
+	color:#fff;
+
+}
+
+.lorem {
+	font-family: serif;
+	color: #fff;
+	padding-left: 55px;
+	padding-top: 30px;
+	font-size: 1.7rem;
+}
+
+.navbar-inverse {
+	background: url(../img/fon_body_red.png) no-repeat center top;
 	min-height: 650px;
-	background-attachment: relative; /*  Весь задний фон прилегает к блоку   */
-	background-position: center center;
+	background-attachment: relative;   /*Весь задний фон прилегает к блоку   */
+	
 	width: 100%;
 	background-size: 100%;
-
+	min-width: 320px;
 	-webkit-background-size: cover;  /* чтобы все нормально отображалось .. Сафари  */
 	-moz-background-size: cover; 	/* мазила */
 	-o-background-size: cover;		/* опера */
 	background-size: cover;
 }
 
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #130e27;
+	border-radius: 5px;
+/*	padding: 7px 13px 7px 13px; */
+}
+
+
+#headerwrap img {
+	float: left;
+    }
+
+#headerwrap {
+	background: url(../img/fon_body_red.png) no-repeat center top;
+	min-height: 650px;
+	background-attachment: relative;   /*Весь задний фон прилегает к блоку   */
+	
+	width: 100%;
+	background-size: 100%;
+	min-width: 320px;
+	-webkit-background-size: cover;  /* чтобы все нормально отображалось .. Сафари  */
+	-moz-background-size: cover; 	/* мазила */
+	-o-background-size: cover;		/* опера */
+	background-size: cover;
+}
+
+#headerwrap img {
+	margin-top: 40px;
+}
+
+#headerwrap .list {
+	margin-top: 80px;
+}
+
+
+#headerwrap ul li {
+	display: inline;
+	text-transform: uppercase;
+	color: #fff;
+	padding-left: 20px;
+	
+
+}
+
+#headerwrap ul li a {
+	
+	color: #fff;
+	text-decoration: none;
+	
+	font-size: 2.2rem;
+	font-weight: 700;
+	
+
+}
+
+
+#headerwrap ul li a:focus {
+	
+	background-color: #130e27;
+	border-radius: 5px;
+	padding: 7px 13px 7px 13px;
+
+} 
+
+
+.border {
+	border:1px solid red;
+}
+
 .centered {
 	text-align: center;
 }
 
+.align-left {
+	text-align: left;
+}
+
+#hp {
+	background-color: #fff;
+	min-width: 320px;
+}
+
+
+
+#hp .text {
+	font-family: serif;
+	font-size: 2rem;
+	
+	margin-bottom: 30px;
+	min-width: 320px;
+	text-align: left;
+}
+
+#hp .pl {
+	margin-left: 60px;
+}
+
+
+
+#hp .img1 {
+	background: url(../img/heart.png) no-repeat ;
+	width: 100%;
+	min-height: 200px;
+	min-width: 320px;
+
+}
+
+#hp .img2 {
+	background: url(../img/tools.png) no-repeat ;
+	width: 100%;
+	min-height: 200px;
+	min-width: 320px;
+	margin-left: 60px;
+}
+
+#hp .img3 {
+	background: url(../img/bulb.png) no-repeat ;
+	width: 100%;
+	min-height: 200px;
+	min-width: 320px;
+	margin-left: 70px;
+}
+
+#hp .img4 {
+	background: url(../img/navigate.png) no-repeat ;
+	width: 100%;
+	min-height: 200px;
+	min-width: 320px;
+}
+
+
+
+#hp .tx {
+	padding-top: 30px;
+	padding-bottom: 70px;
+	color: #130e27;
+	text-transform: uppercase;
+	font-size: 4rem;
+	font-weight: 700;
+	text-align: left;
+	min-width: 320px;	
+}
+
+#hp span {
+	color:red;
+}
 
 #wp {
 	background-color: #130e27;
-	min-height: 100px;
+	min-height: 120px;
+	min-width: 320px;
+
+	
 }
 
 #wp .story {
-	padding-top:  25px;
+	padding-top:  30px;
 	font-family: serif;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	color: white;
 	font-weight: 300;
 	letter-spacing: 1px;
+	text-align: left;
+
 }
 
 #wp .our-story {
 	padding-left: 66px;
-	padding-top:  30px;
+	padding-top:  35px;
 }
 
 #wp input[type="button"] {
 	color:#fff;
 	font-size: 2rem;
-	width: 170px;
+	
 	border-radius: 3px;
 	text-transform: uppercase;
-	padding: 4px;
+	padding: 10px 25px 10px 25px;
+
 	background-color: red;
 	border: 0;	
+	
+	margin-top: 5px;
+	margin-right: 15px;
+
 }
 
-#dg h4 {
+#dg .tx {
 	padding-top: 30px;
+	padding-bottom: 30px;
 	color: #130e27;
 	text-transform: uppercase;
 	font-size: 4rem;
 	font-weight: 700;
-}
-
-
-
-#dg .img {
-	
-	width: 100%;
-	background-size: 100%;
-	min-height: 400px;
+	text-align: center;
+	min-width: 320px;
 }
 
 #dg .img1 {
-	background: url(../img/rect_1.png) no-repeat;
-	
+	background: url(../img/rect_1.png);
+	background-size: cover;	
+	min-width: 320px;
 }
 
 #dg .img2 {
-	background: url(../img/fff.png) no-repeat;
-	
+	background: url(../img/fff.png);
+	background-size: cover;
+	min-width: 320px;
 }
 
 #dg .img3 {
-	background: url(../img/rect_1.png) no-repeat;
-	
+	background: url(../img/rect_1.png); 
+	background-size: cover;
+	min-width: 320px;
 }
 
 #dg .tilt {
@@ -117,6 +314,8 @@ h1,	h2,	h3,	h4,	h5,	h6 {
 	font-size: 4rem;
 	color: red;
 	font-weight: 600;
+	
+
 }
 
 #dg input[type="button"] {
@@ -152,3 +351,169 @@ h1,	h2,	h3,	h4,	h5,	h6 {
 #dg .pt {
 	padding-top: 28px;
 }
+
+
+#gl {
+	background-color:#fff;
+	min-width: 320px;
+	
+}
+
+#gl .tx {
+	margin-bottom: 30px;
+	
+	font-size: 4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#gl .tx1 {
+	color: #130e27;
+	margin-top: 100px;
+}
+
+#gl .tx2 {
+	color: red;
+	margin-top: 100px;
+}
+
+#gl .test-text {
+	font-family: serif;
+	font-size: 1.8rem;
+}
+
+#gl .test-text1 {
+	color:black;
+}
+
+#gl .test-text2 {
+	color:red;
+}
+
+#gl .DJ {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #130e27;
+	font-weight: 700;
+	font-size: 2rem;
+
+}
+
+#gl .fon {
+	
+	background-color: #fff;
+	height: 125px;
+	margin-bottom: 160px;
+
+	
+}
+
+#gl .man {
+	margin-bottom: 50px;
+}
+
+#gl a {
+
+	text-transform: uppercase;
+	color: #130e27;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 1.7rem;
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #130e27;
+	min-width: 320px;
+	min-height: 150px;
+
+
+}
+
+#footer span {
+	color:red;
+}
+
+#footer .all {
+	text-align: left;
+	padding-top: 50px; 
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+#footer img {
+	padding-top: 30px; 
+}
+
+
+
+
+@media (max-width: 1199px) {
+    .sellform {
+    	margin: 0;
+    	text-align: center;
+    }
+    
+	#headerwrap img {
+		float: none;
+    }
+    
+ 	#headerwrap .list {
+		margin: 10px;
+	}
+  
+    #dg .img {
+    	margin-bottom: 20px;
+    }
+
+    #gl .test-text {
+		text-align: center;
+	}
+	#gl .DJ {
+		text-align: center;
+	}
+	#gl .fon {
+		margin-bottom: 0px;
+	}
+	#gl .tx {
+		margin-top: 40px;
+	}  
+	#footer .all {
+		text-align: center;
+	}
+	#wp .story {
+		text-align: center;
+	}
+	#gl .woman {
+		margin-top: 30px;
+	}
+
+	#hp .tx {
+		text-align: center;
+	}
+
+	#hp .text {
+		text-align: center;
+	}
+	
+	#hp .img1 {
+		background: url(../img/heart.png) no-repeat center;
+	}
+
+	#hp .img2 {
+		background: url(../img/tools.png) no-repeat center;
+		margin-left: 0px;
+	}
+
+	#hp .img3 {
+		background: url(../img/bulb.png) no-repeat center;
+		margin-left: 0px;
+	}
+
+	#hp .img4 {
+		background: url(../img/navigate.png) no-repeat center;
+	}
+
+	#hp .pl {
+		margin-left: 0px;
+	}
